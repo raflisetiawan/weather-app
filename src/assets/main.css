@@ -1,0 +1,30 @@
+body .body--dark {
+  background: #193367;
+}
+
+body .body--light {
+  background: #f0f5ff;
+}
+
+.card--dark {
+  background-color: #364680;
+}
+
+.weather-card--dark {
+  background-color: #93b7ff;
+}
+
+.shadow-forecast-list {
+  box-shadow: 1px 0px 5px lightblue;
+  border-radius: 4px;
+}
+
+.weather-icon-lg {
+  width: 150px;
+}
+.weather-icon-md {
+  width: 100px;
+}
+.weather-icon-sm {
+  width: 50px;
+}
