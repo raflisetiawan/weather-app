@@ -1,4 +1,7 @@
 <script setup>
+import { onMounted } from "vue";
+
+onMounted(() => (document.title = "Tentang"));
 const contents = [
   {
     title: "Frontend Framework: ",
@@ -19,6 +22,11 @@ const contents = [
     title: "Penyedia data API: ",
     name: "AccuWeather API's",
     link: "https://developer.accuweather.com/",
+  },
+  {
+    title: "Source Code",
+    name: "Github",
+    link: "https://github.com/raflisetiawan/weather-app/",
   },
 ];
 </script>

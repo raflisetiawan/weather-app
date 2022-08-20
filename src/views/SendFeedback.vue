@@ -1,7 +1,9 @@
 <script setup>
 import { useQuasar } from "quasar";
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import { collection, addDoc, getFirestore } from "firebase/firestore";
+
+onMounted(() => (document.title = "Tentang"));
 
 const $q = useQuasar();
 const db = getFirestore();
