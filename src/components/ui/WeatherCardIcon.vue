@@ -18,14 +18,25 @@ watchEffect(() => {
 </script>
 
 <template>
-  <Sunny v-if="IconNumber == 1 || IconNumber == 2" class="weather-icon-lg" />
+  <Sunny
+    v-if="
+      IconNumber == 1 ||
+      IconNumber == 2 ||
+      IconNumber == 33 ||
+      IconNumber == 34 ||
+      IconNumber == 35
+    "
+    class="weather-icon-lg"
+  />
   <Rainy
     v-if="
       IconNumber == 14 ||
       IconNumber == 12 ||
       IconNumber == 13 ||
       IconNumber == 18 ||
-      IconNumber == 26
+      IconNumber == 26 ||
+      IconNumber == 39 ||
+      IconNumber == 40
     "
     class="weather-icon-lg"
   />
@@ -34,6 +45,8 @@ watchEffect(() => {
       IconNumber == 15 ||
       IconNumber == 16 ||
       IconNumber == 17 ||
+      IconNumber == 41 ||
+      IconNumber == 42 ||
       IconNumber == 11
     "
     class="weather-icon-lg"
@@ -46,7 +59,13 @@ watchEffect(() => {
       IconNumber == 6 ||
       IconNumber == 7 ||
       IconNumber == 8 ||
-      IconNumber == 11
+      IconNumber == 11 ||
+      IconNumber == 38 ||
+      IconNumber == 33 ||
+      IconNumber == 34 ||
+      IconNumber == 35 ||
+      IconNumber == 36 ||
+      IconNumber == 37
     "
     class="weather-icon-lg"
   />
