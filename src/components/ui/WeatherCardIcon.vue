@@ -2,7 +2,6 @@
 import Rainy from "@/components/icons/Rainy.vue";
 import Sunny from "@/components/icons/Sunny.vue";
 import Storm from "@/components/icons/Storm.vue";
-import Snowy from "@/components/icons/Snowy.vue";
 import Cloudy from "@/components/icons/Cloudy.vue";
 import { useWeatherStore } from "@/stores/weather";
 import { ref, watchEffect } from "vue";

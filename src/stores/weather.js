@@ -32,7 +32,6 @@ export const useWeatherStore = defineStore({
         const response = await axios.get(makeForecastUrl(locationKey));
         this.headline = response.data.Headline;
         this.dailyForecast = response.data.DailyForecasts[0];
-        console.log(this.dailyForecast);
       } catch (error) {
         this.errorMessage = error.message;
       }
